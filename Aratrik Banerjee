@@ -1,0 +1,72 @@
+export default function HomePage() {
+  return (
+    <main className="min-h-screen bg-white text-gray-800 p-6">
+      <header className="text-center mb-12">
+        <img 
+          src="/Aratrik_Photo.jpg" 
+          alt="Aratrik Banerjee" 
+          className="mx-auto rounded-2xl shadow-lg w-48 h-64 object-cover mb-4"
+        />
+        <h1 className="text-4xl font-bold mb-2">Aratrik Banerjee</h1>
+        <p className="text-xl text-gray-600">Advocate | Tax Litigation | Direct & Indirect Tax | GST | Income Tax</p>
+      </header>
+
+      <section className="grid grid-cols-1 md:grid-cols-2 gap-10 mb-16">
+        <div>
+          <h2 className="text-2xl font-semibold mb-4">About Me</h2>
+          <p className="text-gray-700 leading-relaxed">
+            I am a passionate tax litigation advocate currently pursuing my legal education at SVKM'S NMIMS Kirit P. Mehta School of Law. I specialize in both direct and indirect taxation, encompassing income tax, international tax, GST, and customs law. With internships at top-tier firms such as Nishith Desai Associates, D. M. Harish & Co., Economic Law Practice, and JAA & Associates, I bring hands-on exposure across litigation, compliance, and tax advisory. My mission is to simplify and demystify the evolving landscape of taxation law in India.
+          </p>
+        </div>
+        <div>
+          <h2 className="text-2xl font-semibold mb-4">Recent Publications</h2>
+          <ul className="list-disc list-inside text-gray-700">
+            <li>
+              <a href="https://www.taxmanagementindia.com/visitor/detail_article.asp?ArticleID=11542" className="text-blue-600 underline" target="_blank">Should India seriously consider implementing an inheritance tax?</a>
+            </li>
+            <li>
+              <a href="https://www.ijlmh.com/papers/criminal-investigation-by-police-force/" className="text-blue-600 underline" target="_blank">Criminal Investigation by Police Force</a>
+            </li>
+            <li>
+              <a href="https://www.taxmanagementindia.com/visitor/detail_article.asp?ArticleID=13793" className="text-blue-600 underline" target="_blank">GST Composition Scheme: Simplified Taxation or Hidden Revenue Generator?</a>
+            </li>
+            <li>
+              <a href="https://www.taxmanagementindia.com/visitor/detail_article.asp?ArticleID=13154" className="text-blue-600 underline" target="_blank">Is the Government Waging War on the Gaming Industry with Direct Taxes?</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section className="mb-16">
+        <h2 className="text-2xl font-semibold mb-4">Experience in Direct & Indirect Taxation</h2>
+        <ul className="space-y-4 text-gray-700">
+          <li>
+            <strong>Nishith Desai Associates:</strong> Worked on both direct and indirect tax issues including TDS on ATM services, arbitration award taxability, PE analysis for secondment, and GST registration thresholds under Sections 22 & 24.
+          </li>
+          <li>
+            <strong>D. M. Harish & Co.:</strong> Researched direct tax topics like Tax Residency, Deemed Dividend (Sec. 2(22)), and DTAA with USA, as well as FEMA implications. Handled correspondence with Income Tax Officers and drafted legal opinions.
+          </li>
+          <li>
+            <strong>Economic Law Practice (ELP):</strong> Focused on indirect tax litigation including GST exemptions (e.g., Entry No. 3B), customs classification disputes, and technical exemptions. Also conducted sector-specific research on gold and electronic components.
+          </li>
+          <li>
+            <strong>JAA & Associates:</strong> Assisted in direct tax compliance by preparing and filing ITRs, Form 15CBs, and financial statements under Section 44ADA. Conducted TRC research in the U.S.-India tax context.
+          </li>
+          <li>
+            <strong>PDS Legal:</strong> Handled customs law matters including incorrect declaration of origin, GST misclassification in petroleum imports, and litigation on luxury car imports. Drafted rejoinders and writ petitions.
+          </li>
+        </ul>
+      </section>
+
+      <section className="mb-16">
+        <h2 className="text-2xl font-semibold mb-4">Get in Touch</h2>
+        <p className="text-gray-700 mb-2">Email: <a href="mailto:aratrikbanerjee@gmail.com" className="text-blue-600 underline">aratrikbanerjee@gmail.com</a></p>
+        <p className="text-gray-700">LinkedIn: <a href="https://www.linkedin.com/in/aratrikbanerjee" className="text-blue-600 underline">linkedin.com/in/aratrikbanerjee</a></p>
+      </section>
+
+      <footer className="text-center text-gray-500 text-sm mt-16">
+        © {new Date().getFullYear()} Aratrik Banerjee. All rights reserved.
+      </footer>
+    </main>
+  );
+}
